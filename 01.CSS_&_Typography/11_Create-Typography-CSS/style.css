@@ -1,0 +1,23 @@
+/* •	Use Georgia, serif font-family for the headings
+•	Use headings from h1 to h6
+•	Create a HTML table and style it
+•	Use blockquote tag
+o	Style its left border with rgb(221,221,221) color
+o	Style its font to italic
+•	Use hr tag for the horizontal lines
+ */
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+
+}
+
+table{
+    width: 100%;
+}
