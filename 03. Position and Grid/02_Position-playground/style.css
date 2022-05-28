@@ -1,0 +1,45 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body div.viewport{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+body div.viewport:first-child{
+    background: linear-gradient(to right, rgba(61, 118, 184, 0.993), rgb(111, 197, 111));
+}
+
+body div.viewport:nth-child(2){
+    background: linear-gradient(to right, rgba(212, 76, 155, 0.993), rgb(247, 138, 65));
+}
+
+body div section.card{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+img{
+    width: 300px;
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: 14px -20px 7rem 2px rgb(0 0 0 / 69%);
+}
+
+i{
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 14px;
+}
