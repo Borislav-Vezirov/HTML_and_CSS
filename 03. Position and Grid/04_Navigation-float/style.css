@@ -1,0 +1,107 @@
+/* 
+•	Use rgb(255, 255, 255) for image background and rgba(0, 0, 0, 0.25) for image box shadow
+•	Use font Georgia, serif for the blockquote
+•	Use font Georgia, serif with size 1em/1.2 for the headings
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+}
+
+body>header{
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin-bottom: 15px;
+}
+
+body>header p{
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Georgia, serif;
+    line-height: 1;
+}
+
+body>header ul{
+    position: absolute;
+    display: inline-block;
+    margin-right: auto;
+    right: 0;
+}
+
+body>header ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    /* vertical-align: center; */
+}
+
+a{
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+main{
+    display: inline-block;
+    overflow: hidden;
+    width: 70%;
+}
+
+main article h1{
+    margin-bottom: 15px;
+}
+
+main article p{
+    margin-bottom: 10px;
+}
+
+.second_img{
+    float: right;
+    padding: 5px;
+    border: 2px solid black;
+    padding-bottom: 2px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.second_img img{
+    height: 186px;
+}
+
+aside{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    line-height: 1.2;
+}
+
+aside section h3{
+    margin: 0px 0 10px 80px;
+}
+
+/* aside section h3:last-child{
+    margin-top: 15px;
+} */
+
+aside section ul{
+    margin-left: 110px;
+}
+
+aside section ul li:last-child{
+    margin-bottom: 15px;
+}
+
+aside ul{
+    /* list-style-type: none; */
+}
